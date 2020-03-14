@@ -1,0 +1,41 @@
+.paylines-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.paylines-wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.payline {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  margin-bottom: 4%;
+
+  border: 1px solid #333;
+  border-right: none;
+  border-bottom: none;
+}
+
+.reel {
+  width: 20%;
+
+  border-right: 1px solid #333;
+}
+
+.icon {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  background: #b1b1b1;
+  overflow: hidden;
+
+  border-bottom: 1px solid #333;
+}
+
+.icon.win {
+  background: saddlebrown;
+}
